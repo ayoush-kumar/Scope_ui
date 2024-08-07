@@ -1,0 +1,370 @@
+.courses-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.head-text{
+    background: url("./Images/img1.png");
+}
+
+.highlight-card{
+    text-decoration: none;
+    background-color: orange;
+    color: white;
+    margin: 5px;
+    height: 300px;
+
+    width: 330px;
+    font-size: 25px;
+    border-radius: 20%;
+    text-align: center;
+
+    border: black solid 3px;
+    background: url("./Images/dataimg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.highlight-card:hover{
+    background-color: white;
+    
+    background: url("./Images/dataimg2.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.course01{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+
+}
+.course01-text{
+    width: 80%;
+}
+
+
+.course02{
+    background: url("./Images/courses02.png");
+    background-size: 100% ;
+    height: 350px;
+}
+
+
+.app-b1{
+    background: url("./Images/img08.png");
+    background-size: 100% ;
+    height: 650px;
+
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.cyber-b1{
+    background: url("./Images/img07.png");
+    background-size: 100% ;
+    height: 600px;
+
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.web-b1{
+    background: url("./Images/img06.png");
+    background-size: 100% ;
+    height: 800px;
+
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.market-b1{
+    background: url("./Images/img05.png");
+    background-size: 100% ;
+    height: 600px;
+
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+
+
+.course01{
+    background-color: #f9f9f9;
+    padding: 40px;
+  }
+  .course-button-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .course-button-join-button {
+    background-color: black;
+    color: white;
+  
+    border-radius: 20px;
+    text-align: center;
+  
+    height: 60px;
+    width: 160px;
+  
+    text-decoration: none;
+  }
+
+  .course-button-join-button:hover{
+      background-color: gray;
+      color: black;
+    
+  }
+
+  .course03{
+    background-color: #f9f9f9;
+
+    padding: 40px;
+  }
+  .course03 h1{
+    color: #ff4b4b;
+    text-align: center;
+    font-size: 70px;
+  }
+  .course03 h3{
+    text-align: center;
+    margin: 9px;
+    margin-top: 30px;
+  }
+  .course03-item{
+    background-color: white;
+    color: black;
+    height: 90px;
+    border-radius: 2rem;
+    display: flex;
+    margin: 9px;
+    width: 400px;
+    text-decoration: none;
+  }
+  .course03-item:hover{
+    color: white;
+    background-color: #ff4b4b;
+  }
+  .course03-item img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .course03-02{
+
+    display: flex;
+    flex-direction: row;
+  }
+  .course03-02-left{
+    width: 50%;
+    background-color: #f9f9f9;
+    
+  }
+  .course03-02-left h1{
+
+    text-align: left;
+  }
+  .course03-02-left h3{
+    text-align: left;
+  }
+  .course03-02-right{
+    width: 50%;
+
+  }
+  .course03-02-left-text{
+    margin-top: 12rem;
+  }
+
+
+  .right-table, .left-table{
+
+    display: flex;
+    flex-direction: row;
+
+    margin: 20px;
+    gap: 80px;
+    padding: 10px;
+
+}
+.table-11 img, .table-12 img, .table-21 img, .table-22 img{
+border-radius: 100%;
+height: 50px;
+}
+.table-11 h1, .table-12 h1, .table-21 h1, .table-22 h1{
+    font-size: 40px;
+    text-align: left;
+    color: black;
+}
+.table-11 h3, .table-12 h3, .table-21 h3, .table-22 h3{
+    text-align: left;
+}
+  .table-11, .table-12, .table-21, .table-22{
+    background-color: white;
+    width: 400px;
+
+    
+    border-radius: 10%;
+    padding: 10px;
+  }
+
+  .course-main-body{
+    height: 100%;
+  }
+  .course-04-text{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .course-04-text h1{
+    color: black;
+    text-align: left;
+    width: 50%;
+  }
+  .course-04-text h3{
+    margin-top: 10rem;
+    text-align: left;
+    width: 50%;
+  }
+  .course-04-button{
+    height: 70px;
+    width: 70px;
+    background-color: rgb(241, 180, 180);
+    margin-top: 11rem;
+    border-radius: 100%;
+    text-decoration: none;
+    justify-content: center;
+    font-size: 50px;
+
+  }
+  .course-04-button:hover{
+    background-color: #ff4b4b;
+  }
+  .course-04-card{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .course-04-card-items{
+    background-color: white;
+    height: 200px;
+    width: 30%;
+    margin:  10px;
+    border-radius: 10%;
+    text-align: center;
+
+  }
+
+
+  .data01{
+    background-color: black;
+    color: white;
+    padding: 10px;
+
+   
+  }
+  .data01 h1{
+    font-size: 60px;
+    margin-left: 70px;
+  }
+  .data01 h4{
+    width: 50%;
+    margin-left: 70px;
+  }
+  .data01-logo{
+    display: flex;
+    flex-direction: row;
+  }
+  .data01-logo01{
+    display: flex;
+    flex-direction: row;
+    margin-left: 60px;
+  }
+
+.data01-logo01-items-01{
+  margin-top: 30px;
+}
+.data02-class01-list{
+  display: flex;
+
+}
+.data02{
+  height: 3500px;
+}
+  .data01-logo01-items{
+    background-color: white;
+    color: black;
+    height: 3rem;
+    width: 10rem;
+    margin: 10px;
+    gap: 10px;
+    border-radius: 1rem;
+    text-align: center;
+  }
+
+  .data02{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: #e9e9e9;
+  }
+  .data02-class01{
+    margin-top: 20px;
+    background-color: #e9e9e9;
+    border-radius: 1rem;
+    border: solid black 3px;
+    width: 70%;
+    height: 700px;
+    
+    
+  }
+
+  .data02-class01 h1{
+    font-size: 60px;
+    color: #ff4b4b;
+    margin-left: 60px;
+  }
+  .data02-class02-box01{
+    background-color: gray;
+    height: 300px;
+    margin: 20px;
+    border-radius: 2rem;
+  }
+  .data02-class02{
+    margin-top: 20px;
+    height: 900px;
+    background-color: white;
+    border-radius: 2rem;
+    width: 30rem;
+    margin-left: 1rem;
+  }
+
+
+  .data02-class01-list-item{
+    background-color: white;
+    height: 20px;
+    border-radius: 1rem;
+    margin-left: 2rem;
+    height: 3rem;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: left;
+    font-size: 25px;
+  }

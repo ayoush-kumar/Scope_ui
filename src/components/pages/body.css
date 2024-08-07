@@ -1,0 +1,175 @@
+.career-explorer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #f5f5f5;
+  }
+  
+  .content-section {
+    flex: 1;
+    padding-right: 50px;
+  }
+  
+  h1 {
+    font-size: 48px;
+    color: #ff4b4b;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 20px;
+  }
+  
+  button {
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .view-courses {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .view-courses:hover{
+    background-color: #757171;
+  }
+
+  .learn-more {
+    background-color: #ff4b4b;
+    color: #fff;
+  }
+.learn-more:hover{
+  background-color: #e04141;
+}
+
+  
+  .image-section {
+    flex: 1;
+    position: relative;
+  }
+  
+  .illustration {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #e6f2ff;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  
+  .illustration img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* .badge {
+    position: absolute;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  } */
+  
+  /* .mentors {
+    top: -20px;
+    right: 20px;
+  } */
+  
+  /* .students {
+    bottom: -20px;
+    left: 20px;
+  } */
+  
+  /* .avatars {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+  }
+  
+  .avatars img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-right: -10px;
+  }
+  
+  .more {
+    background-color: #ff4b4b;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+  }
+   */
+  .students img {
+    width: 100px;
+    height: auto;
+    margin-top: 5px;
+  }
+
+
+  .body-heading{
+    text-align: center;
+  }
+
+  .body-img{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 20px;
+
+    flex: 1;
+    position: relative;
+  }
+
+  .body-img1{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #e6f2ff;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  .body-img2{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 20px;
+
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #e6f2ff;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+.body-img1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .body-img2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+  }
