@@ -16,6 +16,9 @@ const Courses = () => {
     <div>
       <Header />
       <div className="course-main-body">
+
+
+
         <div className="course01">
           <div className="course01-text">
             <p
@@ -46,19 +49,22 @@ const Courses = () => {
               </Link>
             </div>
           </div>
+
+
+
           <div className="course01-image">
             <img
-              style={{
-                height: "600px",
-                width: "800px",
-              }}
+
               src={course01}
               alt="img"
             />
           </div>
+
+          
         </div>
 
         <div className="course02"></div>
+
         <div className="course03">
           <div style={{ marginBottom: "15rem" }}>
             <h1>Trending Courses</h1>
@@ -187,7 +193,7 @@ const Courses = () => {
           </div>
 
           <div className="course-04">
-            <div>
+            <div style={{width:'95%'}}>
               <div className="course-04-text">
                 <h1>
                   Let's see what <br/>

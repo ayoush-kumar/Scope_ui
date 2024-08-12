@@ -9,12 +9,12 @@ const SignUp = () => {
       <Header/>
       <div className="login-container">
           <div className="left-panel">
-            <h1>Scope</h1>
-            <p>Let’s make learning fun</p>
+            <h1 style={{fontSize:'700%'}}>Scope</h1>
+            <p style={{fontSize:'300%'}}>Let’s make learning fun</p>
           </div>
           <div className="right-panel">
             <div className="login-form">
-              <h2>Welcome Back</h2>
+              <h2>Sign Up</h2>
               <div className="social-login">
                 <button className="google-btn">G</button>
                 <button className="facebook-btn">f</button>
@@ -24,6 +24,7 @@ const SignUp = () => {
                 <span>or</span>
               </div>
               <form>
+              <input type="name" placeholder="Name" required />
                 <input type="email" placeholder="Email" required />
                 <input type="password" placeholder="Password" required />
                 <div className="form-options">

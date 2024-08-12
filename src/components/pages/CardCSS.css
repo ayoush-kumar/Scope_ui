@@ -6,13 +6,17 @@
     gap: 20px;
     margin-top: 20px;
     margin-bottom: 50px;
+    width: 100%;
+    
     
   }
   
   .card {
+    
     position: relative;
-    width: 350px;
-    height: 400px;
+    width: 17%;
+    height: 300px;
+
     border-radius: 10%;
     overflow: hidden;
     background-size: cover;

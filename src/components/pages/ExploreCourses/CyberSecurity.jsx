@@ -38,7 +38,7 @@ const CyberSecurity = () => {
             <h1> What you'll learn</h1>
 
             <div className="data02-class01-list">
-              <ul style={{ fontSize: "20px", marginLeft: "60px" }}>
+              <ul style={{ fontSize: "20px", marginLeft: "60px" ,height:'25rem' }}>
                 <li>
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Corrupt

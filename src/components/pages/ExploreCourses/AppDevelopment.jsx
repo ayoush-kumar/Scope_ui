@@ -41,7 +41,12 @@ const AppDevelopment = () => {
           <h1> What you'll learn</h1>
 
           <div className="data02-class01-list">
-            <ul style={{ fontSize: "20px", marginLeft: "60px" }}>
+            <ul style={{ fontSize: "20px", marginLeft: "60px" , height:'25rem'}}>
+              <li>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Corrupt
+              </li>
+              <br />
               <li>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Corrupt
@@ -82,7 +87,8 @@ const AppDevelopment = () => {
             </ul>
           </div>
         </div>
-        <h1 style={{ marginTop: "9rem" }}>This Course Include</h1>
+
+        <h1 style={{ marginTop: "15%" }}>This Course Include</h1>
         <div style={{ display: "flex", flexDirection: "row" }}>
           <div>
             <ul style={{ fontSize: "20px", marginLeft: "60px" }}>

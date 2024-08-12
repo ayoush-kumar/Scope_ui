@@ -11,8 +11,8 @@ const Login = () => {
     
         <div className="login-container">
           <div className="left-panel">
-            <h1>Scope</h1>
-            <p>Let’s make learning fun</p>
+          <h1 style={{fontSize:'700%'}}>Scope</h1>
+          <p style={{fontSize:'300%'}}>Let’s make learning fun</p>
           </div>
           <div className="right-panel">
             <div className="login-form">

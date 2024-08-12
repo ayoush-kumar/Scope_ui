@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 import './CardCSS.css'; 
 
-import Demo1 from './ExploreCourses/Images/img3.png'
-import Demo2 from './ExploreCourses/Images/img04.png'
-import Demo3 from './ExploreCourses/Images/img05.png'
-import Demo4 from './ExploreCourses/Images/img06.png'
-import Demo5 from './ExploreCourses/Images/img07.png'
+// import Demo1 from './ExploreCourses/Images/img3.png'
+// import Demo2 from './ExploreCourses/Images/img04.png'
+// import Demo3 from './ExploreCourses/Images/img05.png'
+// import Demo4 from './ExploreCourses/Images/img06.png'
+// import Demo5 from './ExploreCourses/Images/img07.png'
+
+import Demo from './ExploreCourses/Images/img12.png'
 
 
 
@@ -22,8 +24,8 @@ const Card = ({ number, title, backgroundImage, hoverContent }) => {
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
       <div className="card-content">
-        <span className="number">{number}</span>
-        <h3>{title}</h3>
+        <span className="number" style={{  fontSize:'260%',padding:'10px'}}>{number}</span>
+        <h3 style={{ marginLeft:'1rem', fontSize:'180%', marginTop:'50px', padding:'20px', wordBreak:'break-word'}}>{title}</h3>
       </div>
       {isHovered && (
         <div className="hover-overlay">
@@ -49,11 +51,11 @@ const CardGrid = () => {
       <Card 
         number="01"  
         className='card01' 
-        title="Data" 
-        backgroundImage={Demo1}
+        title="Data Analytics" 
+        backgroundImage={Demo}
         hoverContent={
           <div>
-            <h1>
+            <h1 style={{ fontSize:'45px'}}> 
             Explore <br/>
             Courses <br/>
           </h1>
@@ -66,10 +68,10 @@ const CardGrid = () => {
       <Card 
         number="02"
         title="Digital Marketing" 
-        backgroundImage={Demo2} 
+        backgroundImage={Demo} 
         hoverContent={
           <div>
-            <h1>
+            <h1 style={{ fontSize:'45px'}}>
             Explore <br/>
             Courses <br/>
           </h1>
@@ -82,10 +84,10 @@ const CardGrid = () => {
       <Card 
         number="03"
         title="Web Development" 
-        backgroundImage={Demo3} 
+        backgroundImage={Demo} 
         hoverContent={
           <div>
-            <h1>
+            <h1 style={{ fontSize:'45px'}}>
               Explore <br/>
               Courses <br/>
             </h1>
@@ -98,10 +100,10 @@ const CardGrid = () => {
       <Card 
         number="04" 
         title="Cyber Security" 
-        backgroundImage={Demo4} 
+        backgroundImage={Demo} 
         hoverContent={
           <div>
-            <h1>
+            <h1 style={{ fontSize:'45px'}}>
             Explore <br/>
             Courses <br/>
           </h1>
@@ -114,10 +116,10 @@ const CardGrid = () => {
       <Card 
         number="05" 
         title="App Development" 
-        backgroundImage={Demo5} 
+        backgroundImage={Demo} 
         hoverContent={
           <div>
-            <h1>
+            <h1 style={{ fontSize:'45px'}}>
             Explore <br/>
             Courses <br/>
           </h1>
