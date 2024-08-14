@@ -1,4 +1,4 @@
-.login-container {
+/* .login-container {
   width: 98%;
     display: flex;
     height: 50rem;
@@ -140,4 +140,132 @@
   .terms a {
     color: #007BFF;
     text-decoration: none;
-  }
+  } */
+
+
+
+
+
+
+
+.main-box{
+  background: url('./auth.png');
+  background-size: 100% 100%;
+  height: 900px;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.right-box{
+  width: 35%;
+  height: 820px;
+  background-color: white;
+  padding: 30px;
+  margin: 10px;
+  border-radius: 2rem;
+  opacity: 97%;
+  align-items: center;
+}
+
+.left-box{
+  width: 70%;
+  height: 900px;
+  
+}
+
+
+.social-login {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.social-login button {
+  width: 30%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.google-btn {
+  background-color: #db4437;
+  color: white;
+}
+
+.facebook-btn {
+  background-color: #3b5998;
+  color: white;
+}
+
+.apple-btn {
+  background-color: #000000;
+  color: white;
+}
+
+.divider {
+  margin: 20px 0;
+  position: relative;
+  text-align: center;
+}
+
+.divider span {
+  background: white;
+  padding: 0 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.divider::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  border-top: 1px solid #ccc;
+  z-index: 0;
+}
+
+.login-input{
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  gap: 10px;
+  font-size: 1.4rem;
+}
+.login-input input{
+padding: 8px;
+  height: 30px;
+  width: 50%;
+  text-decoration: none;
+  border-radius: 0.8rem;
+  font-size: 1rem;
+  background-color: white;
+  border: solid black 1px;
+}
+.check-box{
+  padding: 5px;
+  font-size: 1rem;
+}
+.check-box a{
+  margin-left: 1.5rem;
+}
+.submit-btn button{
+  width: 50%;
+  height: 2.5rem;
+  background-color: #ff4b4b;
+  border: none;
+  border-radius: 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 10px;
+  margin: 10px;
+}
+
+.submit-btn button:hover{
+  color: white;
+  background-color: black;
+}

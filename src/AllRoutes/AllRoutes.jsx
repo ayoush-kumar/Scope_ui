@@ -14,6 +14,7 @@ import AppDevelopment from '../components/pages/ExploreCourses/AppDevelopment.js
 import HomePage from '../components/pages/HomePage'
 import Login from '../components/pages/Auth/Login'
 import SignUp from '../components/pages/Auth/SignUp'
+import Contact from '../components/layout/Contact.jsx'
 
 const AllRoutes = () => {
   return (
@@ -29,6 +30,7 @@ const AllRoutes = () => {
             <Route path='/courses/app-development' element={<AppDevelopment/>}/>
             <Route path='/Auth/login' element={<Login/>}/>
             <Route path='/Auth/sign-up' element={<SignUp/>}/>
+            <Route path='/contact' element={<Contact/>}/>
         </Routes> 
     </>
   )

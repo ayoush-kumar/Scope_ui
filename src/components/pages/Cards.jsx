@@ -25,7 +25,7 @@ const Card = ({ number, title, backgroundImage, hoverContent }) => {
     >
       <div className="card-content">
         <span className="number" style={{  fontSize:'260%',padding:'10px'}}>{number}</span>
-        <h3 style={{ marginLeft:'1rem', fontSize:'180%', marginTop:'50px', padding:'20px', wordBreak:'break-word'}}>{title}</h3>
+        <h3 style={{ marginLeft:'1rem', fontSize:'160%', marginTop:'50px', padding:'20px', wordBreak:'break-word'}}>{title}</h3>
       </div>
       {isHovered && (
         <div className="hover-overlay">

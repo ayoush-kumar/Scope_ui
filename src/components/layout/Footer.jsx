@@ -1,5 +1,6 @@
 import React from "react";
 import "./layout.css";
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -16,33 +17,33 @@ const Footer = () => {
         <div className="footer-column">
           <div className="footer-column-items">
             <h4>About Scope</h4>
-              <a href="" className="footer-highlight">Products</a>
-              <a href="" className="footer-highlight">Trials</a>
-              <a href="" className="footer-highlight">Services</a>
-              <a href="" className="footer-highlight">Case Studies</a>
+            <Link to="/contact" className="footer-highlight">Products</Link>
+            <Link to="/contact" className="footer-highlight">Trials</Link>
+            <Link to="/contact" className="footer-highlight">Services</Link>
+            <Link to="/contact" className="footer-highlight">Case Studies</Link>
           </div>
           <div className="footer-column-items">
             <h4>Connect With Us</h4>
-              <a href="" className="footer-highlight">Support</a>
-              <a href="" className="footer-highlight">Developers</a>
-              <a href="" className="footer-highlight">Business Partners</a>
+            <Link to="/contact" className="footer-highlight">Support</Link>
+            <Link to="/contact" className="footer-highlight">Developers</Link>
+            <Link to="/contact" className="footer-highlight">Business Partners</Link>
           </div>
           <div className="footer-column-items">
             <h4>Follow Us</h4>
-              <a href="" className="footer-highlight">Instagram</a>
-              <a href="" className="footer-highlight">Facebook</a>
-              <a href="" className="footer-highlight">X</a>
+            <Link to="/contact" className="footer-highlight">Instagram</Link>
+            <Link to="/contact" className="footer-highlight">Facebook</Link>
+            <Link to="/contact" className="footer-highlight">X</Link>
             
           </div>
         </div>
 
         <div className="footer-bottom">
+        <Link to="/contact" className="footer-highlight">Contact</Link>
 
-            <a href="" className="footer-highlight">Contact</a>
-            <a href="" className="footer-highlight">Terms Of Use</a>
-            <a href="" className="footer-highlight">Cookie Preferences</a>
-            <a href="" className="footer-highlight">Privacy</a>
-            <a href="" className="footer-highlight">Accessibility</a>
+        <Link to="/contact" className="footer-highlight">Terms Of Use</Link>
+        <Link to="/contact" className="footer-highlight">Cookie Preferences</Link>
+        <Link to="/contact" className="footer-highlight">Privacy</Link>
+        <Link to="/contact" className="footer-highlight">Accessibility</Link>
         </div>
       </div>
     </footer>
