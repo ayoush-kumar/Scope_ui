@@ -7,7 +7,7 @@ import './CardCSS.css';
 // import Demo4 from './ExploreCourses/Images/img06.png'
 // import Demo5 from './ExploreCourses/Images/img07.png'
 
-import Demo from './ExploreCourses/Images/img12.png'
+import Demo from './img11.png'
 
 
 

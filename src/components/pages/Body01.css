@@ -81,18 +81,20 @@
 }
 
 .masterclass-cards-items {
-  border: solid black 3px;
+  /* border: solid black 1.5px; */
   background-color: lightgray;
   border-radius: 2rem;
   width: 18%;
   height: 25%;
+
+  opacity: 80%;
 
 }
 .masterclass-cards-image {
   padding: 2%;
   margin: 2%;
   height: 11rem;
-  width: 90%;
+  width: 92%;
   border-radius: 10%;
 }
 
@@ -245,10 +247,12 @@
   height: 10rem;
   width: 10rem;
   border-radius: 100%;
+  margin-top: 1.5rem;
+  border: solid black 1px;
 }
 
 .listenFromOurStudents-cards-items{
-  border: solid black 2px;
+  border: solid black 1px;
   background-color: white;
   border-radius: 2rem;
   width: 18%;
@@ -259,12 +263,13 @@
 .listenFromOurStudents-cards-items h3{
   color: #ff4b4b;
 }
+
+.istenFromOurStudents-cards-bottom{
+  width: 90%;
+  margin-left: 5%;
+  border-top: solid black 2px;
+}
 .istenFromOurStudents-cards-bottom h3{
   font-size: 100%;
   padding: 10px;
-  
-
-}
-.istenFromOurStudents-cards-bottom{
-  border-top: solid black 2px;
 }

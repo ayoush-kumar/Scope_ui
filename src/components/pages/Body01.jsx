@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "./welclogo.png";
-import Demo from "../pages/Assets/demo.jpg";
+import Demo from "./class.png";
+import profile from './userProfile.png'
 // import img09 from "./img09.png";
 // import img10 from "./img10.png";
 import img11 from "./demo02.png";
@@ -52,46 +53,7 @@ const Body01 = () => {
           />
         </div>
       </div>
-      {/* <div className="welcome-container">
-        <div className="welcome-text">
-          <img
-            src={Logo}
-            alt="Logo"
-            style={{ height: "150px", marginLeft: "9rem" }}
-          />
-          <p style={{ textAlign: "center" }}>
-            Top Mentorship Programs in Tech, Marketing, & Data-
-            <br />
-            Designed and Delivered by industry maestros.
-          </p>
-          <div
-            className="button-container"
-            style={{ justifyContent: "center" }}
-          >
-            <Link to="" className="button join-button">
-              <h4 style={{ textAlign: "center" }}>Join Now</h4>
-            </Link>
-            <Link to="" className="button login-button">
-              <h4 style={{ textAlign: "center" }}>Login</h4>
-            </Link>
-          </div>
-        </div>
-        <div className="welcome-image">
-          <img
-            style={{
-              height: "600px",
-              width: "800px",
-
-              // left:'50%',
-              // top:'10%',
-              // width:'800px'
-            }}
-            src={img11}
-            alt="Mentorship"
-          />
-        </div>
-      </div> */}
-
+     
       <div
         className="carrer-fit"
         style={{ background: "lightGray", padding: "30px" }}
@@ -109,7 +71,7 @@ const Body01 = () => {
       </div>
 
       <div className="impactNo">
-        <div style={{ width: "70%" }}></div>
+        <div style={{ width: "90%" }}></div>
         <div style={{ marginTop: "15%" }}>
           <h1>World-Class Learning For You</h1>
           <h3>
@@ -122,8 +84,8 @@ const Body01 = () => {
         </div>
       </div>
 
-      <div style={{ background: "#F2F8FB", marginTop: "-20px" }}>
-        <h1 style={{ textAlign: "center" }}>Live Masterclass</h1>
+      <div style={{ background: "#F2F8FB", marginTop: "-30px" }}>
+        <h1 style={{ textAlign: "center", paddingTop:'30px', fontSize:'300%' }}>Live Masterclass</h1>
         <h3 style={{ textAlign: "center" , padding:'20px'}}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
           fugiat perferendis dolore quibusdam, minima minus doloremque dolores
@@ -296,7 +258,7 @@ const Body01 = () => {
         <div className="listenFromOurStudents-cards">
         <div className="listenFromOurStudents-cards-items">
             <img
-              src={Demo}
+              src={profile}
               alt="person"
               className="listenFromOurStudents-cards-image"
             />
@@ -318,7 +280,7 @@ const Body01 = () => {
 
           <div className="listenFromOurStudents-cards-items">
             <img
-              src={Demo}
+              src={profile}
               alt="person"
               className="listenFromOurStudents-cards-image"
             />
@@ -339,7 +301,7 @@ const Body01 = () => {
 
           <div className="listenFromOurStudents-cards-items">
             <img
-              src={Demo}
+              src={profile}
               alt="person"
               className="listenFromOurStudents-cards-image"
             />
@@ -359,7 +321,7 @@ const Body01 = () => {
           </div>
           <div className="listenFromOurStudents-cards-items">
             <img
-              src={Demo}
+              src={profile}
               alt="person"
               className="listenFromOurStudents-cards-image"
             />

@@ -13,7 +13,7 @@ const UserProfile = () => {
 
         <div className='user-left-box'>
             <div>
-            <img src={Userprofile}/>
+            <img src={Userprofile} alt="user-profile"/>
             </div>
             <div className='user-data'>
                 <h1>Name</h1>
