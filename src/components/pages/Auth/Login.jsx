@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 // import { Label } from '@mui/icons-material'
 import { handleError, handleSuccess } from "./utils.jsx";
 
-// import { ToastContainer } from "react-toastify";
+import { ToastContainer } from "react-toastify";
 
 import Header from "../../layout/Header.jsx";
 import Footer from "../../layout/Footer.jsx";
@@ -48,7 +48,7 @@ const Login = () => {
         localStorage.setItem("token", jwtToken);
         localStorage.setItem("loggedInUser", name);
         setTimeout(() => {
-          navigate("/userAuth");
+          navigate("/user-profile");
         }, 1000);
       } else if (error) {
         const details = error?.details[0].message;
@@ -147,7 +147,7 @@ const Login = () => {
                 <Link to="/auth/sign-up" style={{textDecoration:'none', color:'red' }}> Sign-Up</Link>
               </span> 
             </form>
-            {/* <ToastContainer /> */}
+            <ToastContainer />
           </div>
         </div>
       </div>

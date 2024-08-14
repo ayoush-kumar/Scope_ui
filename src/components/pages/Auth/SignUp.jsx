@@ -3,7 +3,7 @@ import Header from "../../layout/Header";
 import Footer from "../../layout/Footer";
 import { Link, useNavigate } from "react-router-dom";
 import { handleError, handleSuccess } from "./utils.jsx";
-// import { ToastContainer } from "react-toastify";
+import { ToastContainer } from "react-toastify";
 
 const SignUp = () => {
   const [signupInfo, setSignupInfo] = useState({
@@ -42,7 +42,7 @@ const SignUp = () => {
       if (success) {
         handleSuccess(message);
         setTimeout(() => {
-          navigate("/userLogin");
+          navigate("/user-profile");
         }, 1000);
       } else if (error) {
         const details = error?.details[0].message;
@@ -128,7 +128,7 @@ const SignUp = () => {
                 <Link to="/auth/login" style={{textDecoration:'none', color:'red' }}> Login</Link>
               </span>
             </form>
-            {/* <ToastContainer /> */}
+            <ToastContainer />
           </div>
         </div>
       </div>

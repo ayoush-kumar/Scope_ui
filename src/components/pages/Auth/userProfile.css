@@ -1,0 +1,30 @@
+.user-main-box{
+    height: 100%;
+    width: 100%;
+ justify-content: center;
+ align-items: center;
+}
+
+
+.user-left-box{
+    width: 40%;
+    height: 40rem;
+    border-radius: 2rem;
+    border: solid black 2px;
+    padding: 20px;
+    margin: 20px;
+    margin-left: 30%;
+}
+
+.user-left-box img{
+    height: 20rem;
+    width: 40%;
+    margin-left: 30%;
+    
+}
+.user-data{
+    text-align: center;
+    border-top: solid black 2px;
+}
+
+
