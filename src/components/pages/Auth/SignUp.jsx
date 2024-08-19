@@ -59,15 +59,38 @@ const SignUp = () => {
   return (
     <div>
       <Header />
-      <div className="main-box">
+      <div className="main-box-signup">
         <div className="left-box">
-        <h1 style={{fontSize:'700%', color:'white', marginTop:'20rem', marginLeft:'3rem'}}>Scope</h1>
-        <p style={{fontSize:'300%', color:'white',marginTop:'-3rem' , marginLeft:'3rem'}}>Let’s make learning fun</p>
+          <h1
+            style={{
+              fontSize: "500%",
+              color: "white",
+              marginTop: "20rem",
+              marginLeft: "3rem",
+            }}
+          >
+            Create New Account
+          </h1>
+          <p
+            style={{
+              fontSize: "200%",
+              color: "white",
+              marginTop: "-3rem",
+              marginLeft: "3rem",
+              marginRight:'30rem'
+            }}
+          >
+            Create new account and get 1 credits free for any course.
+          </p>
         </div>
 
         <div className="right-box">
           <div style={{ alignItems: "a" }}>
-            <h1 style={{ textAlign: "center", fontSize: "70px" }}>Sign Up</h1>
+            <h1 style={{ textAlign: "center", fontSize: "55px" }}>Sign Up</h1>
+            <p style={{ fontSize: "18px" }}>
+              join scope and get insights about new courses, news and live
+              cohorts for everyone.
+            </p>
             <div className="social-login">
               <button className="google-btn">G</button>
               <button className="facebook-btn">f</button>
@@ -114,18 +137,24 @@ const SignUp = () => {
                 />
               </div>
               <div className="check-box">
-            <input type="checkbox" /> Remember Me
-            <Link to="/" style={{textDecoration:'none', color:'red' }}>Forgot password?</Link>
-            </div>
-            <div className="submit-btn">
-            <button type="submit" >
-              Sign-Up
-            </button>
-            </div>
+                <input type="checkbox" /> Remember Me
+                <Link to="/" style={{ textDecoration: "none", color: "red" }}>
+                  Forgot password?
+                </Link>
+              </div>
+              <div className="submit-btn">
+                <button type="submit">Sign-Up</button>
+              </div>
               <span>
                 {" "}
                 Allready have an account?
-                <Link to="/auth/login" style={{textDecoration:'none', color:'red' }}> Login</Link>
+                <Link
+                  to="/auth/login"
+                  style={{ textDecoration: "none", color: "red" }}
+                >
+                  {" "}
+                  Login
+                </Link>
               </span>
             </form>
             <ToastContainer />

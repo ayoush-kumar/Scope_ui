@@ -63,7 +63,8 @@ const Header = () => {
         {/* <button className="create-account">Create an account</button> */}
         {/* <button className="login">Log In</button> */}
 
-        <Link to="/auth/sign-up" className="create-account" style={{textDecoration:'none'}}>Create an account</Link>
+        <Link to="/auth/placements" className="create-account" style={{textDecoration:'none', color:'red'}}>Placements</Link>
+        <Link to="/auth/sign-up" className="create-account" style={{textDecoration:'none', color:'red'}}>Create an account</Link>
         <Link to="/auth/login" className="login" style={{textDecoration:'none'}}>Log In</Link>
       </div>
     </nav>

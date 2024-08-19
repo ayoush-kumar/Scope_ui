@@ -146,7 +146,15 @@
 
 
 
-
+  .main-box-signup{
+    background: url('./mainsignup.png');
+    background-size: 100% 100%;
+    height: 900px;
+    background-repeat: no-repeat;
+  
+    display: flex;
+    flex-direction: row;
+  }
 
 .main-box{
   background: url('./auth.png');
@@ -161,11 +169,11 @@
 .right-box{
   width: 35%;
   height: 820px;
-  background-color: white;
+  background-color: whitesmoke;
   padding: 30px;
   margin: 10px;
   border-radius: 2rem;
-  opacity: 97%;
+  opacity: 98%;
   align-items: center;
 }
 
@@ -213,7 +221,7 @@
 }
 
 .divider span {
-  background: white;
+  background: whitesmoke;
   padding: 0 10px;
   position: relative;
   z-index: 1;
@@ -225,8 +233,9 @@
   top: 50%;
   left: 0;
   right: 0;
-  border-top: 1px solid #ccc;
+  border-top: 5px solid #ccc;
   z-index: 0;
+  
 }
 
 .login-input{
@@ -235,17 +244,21 @@
   margin: 5px;
   gap: 10px;
   font-size: 1.4rem;
+  padding: 4px;
+}
+.login-input label{
+  margin-left: 10px;
 }
 .login-input input{
 padding: 8px;
   height: 30px;
-  width: 50%;
+  width: 80%;
   text-decoration: none;
-  border-radius: 0.8rem;
+  border-radius: 5rem;
   font-size: 1rem;
-  background-color: white;
   border: solid black 1px;
 }
+
 .check-box{
   padding: 5px;
   font-size: 1rem;
@@ -254,7 +267,7 @@ padding: 8px;
   margin-left: 1.5rem;
 }
 .submit-btn button{
-  width: 50%;
+  width: 80%;
   height: 2.5rem;
   background-color: #ff4b4b;
   border: none;

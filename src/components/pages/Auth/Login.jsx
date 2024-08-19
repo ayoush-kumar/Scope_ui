@@ -92,7 +92,7 @@ const Login = () => {
 
         <div className="right-box">
           <div>
-            <h1 style={{ textAlign: "center", fontSize: "70px" }}>
+            <h1 style={{ textAlign: "center", fontSize: "55px" }}>
               Welcome Back
             </h1>
             <div className="social-login">
@@ -109,7 +109,7 @@ const Login = () => {
               onSubmit={handleLogin}
             >
               <div className="login-input">
-                <label>Email</label>
+                <label >Email</label>
                 <input
                   onChange={handleChange}
                   type="email"
