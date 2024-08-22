@@ -6,7 +6,10 @@ import Body01 from './Body01.jsx'
 
 const HomePage = () => {
   return (
-    <div>
+    <div
+    style={{
+      width:'100%'
+    }}>
         <Header/>
 
         <Body01/>

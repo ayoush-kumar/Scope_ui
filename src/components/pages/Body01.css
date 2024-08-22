@@ -16,7 +16,7 @@
 
 
 .welcome-text {
-  max-width: 50%;
+  max-width: 40%;
 }
 
 .welcome-text h1 {
@@ -106,6 +106,17 @@
 }
 
 
+@keyframes blink {
+  0% { color: black; } 
+  100% { color: red; }    /* Ending color, same as start to loop smoothly */
+}
+
+
+.blinking-text{
+  animation: blink 3s infinite; 
+}
+
+
 
 .watch-now {
   padding: 10px 20px;
@@ -142,56 +153,168 @@
 }
 
 .impactNo {
+  width: 100%;
 
-  background: url("./demo01.png");
+  background: url("./impactno.png");
   background-size: 100% 100%;
-  height: 900px;
+  height: 1100px;
   background-repeat: no-repeat;
 
   display: flex;
   flex-direction: row;
 }
+
+
+.impactNo-text{
+  margin-top: 25%;
+padding: 10px;
+  width: 35%;
+}
+
+.impactNO-img{
+  display: flex;
+  flex-direction: column;
+  width: 80rem;
+}
+
+
+.impact-img1{
+  width: 25rem;
+ margin-left: 22rem;
+  margin-top: 5%;
+  height: 350px;
+}
+.impact-img2 {
+  width: 25rem;
+margin-left: 12px;
+  margin-top: -5%;
+  height: 350px;
+  border-radius: 2rem;
+}
+.impact-img3{
+  width: 25rem;
+  margin-left: 22rem;
+  margin-top: -5%;
+  height: 350px;
+  border-radius: 2rem;
+}
+
+.crd{
+  position: relative;
+  height: 350px;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  transition: all 0.3s ease;
+  color: white;
+}
+
+.hover-overlay {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  align-items:  center;
+
+  border-radius: 1.5rem;
+}
+
+.crd:hover .hover-overlay {
+  opacity: 1;
+  
+}
+
+
+
+
+
+
 .impactNo h1{
   text-align: center;
   margin-right: 5%;
   margin-top: auto;
-  font-size: 500%;
+  font-size: 300%;
   color: white;
 }
 .impactNo h3{
   text-align: center;
   color: white;
+  font-size: 100%;
 }
 
 .World-Class-learning{
-
-  background: url("./demo02.png");
-  background-size: 100% 100%;
-  height: 900px;
+  height: 1100px;
   background-repeat: no-repeat;
-
   display: flex;
   flex-direction: row;
 
-
-  border-radius: 3rem;
-
-  margin: 2rem;
-  
-
+  background: url("./demo02.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 2rem;
+  margin: 20px;
+  padding: 20px;
 }
+
 
 .World-Class-learning h1{
   text-align: center;
   margin-right: 5%;
   margin-top: auto;
-  font-size: 400%;
+  font-size: 350%;
   color: #ff4b4b;
 }
-.World-Class-learning h3{
-  text-align: center;
+
+
+
+.world-class-text{
+  margin-top: 20%;
+  width: 50%;
+
 }
 
+
+.World-Class-img{
+  display: flex;
+  flex-direction: column;
+  width: 50rem;
+  margin-left: 20px;
+
+}
+
+
+.World-Class-img1{
+  width: 20rem;
+  margin-top: 5%;
+  height: 300px;
+  border-radius: 2rem;
+}
+.World-Class-img2 {
+  width: 20rem;
+  margin-left: 15rem;
+  height: 300px;
+  border-radius: 2rem;
+
+}
+.World-Class-img3{
+
+  width: 20rem;
+  height: 300px;
+  border-radius: 2rem;
+  
+}
+
+.World-Class-img1:hover img, .World-Class-img2:hover img, .World-Class-img3:hover img{
+  filter: blur(5px);
+}
+
+.impact-img1:hover .impact-img1-overlay{
+  opacity: 1;
+}
 .masterclass-Join-now{
   padding: 10px 20px;
   background-color: #ff4b4b;

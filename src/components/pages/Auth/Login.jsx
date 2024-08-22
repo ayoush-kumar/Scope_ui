@@ -91,7 +91,7 @@ const Login = () => {
         </div>
 
         <div className="right-box">
-          <div>
+          <div className="right-box-content">
             <h1 style={{ textAlign: "center", fontSize: "55px" }}>
               Welcome Back
             </h1>

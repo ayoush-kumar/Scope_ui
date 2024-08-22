@@ -26,8 +26,6 @@
   
   .card-content {
     position: absolute;
-    /* bottom: 50px;
-    left: 20px; */
     color: rgb(0, 0, 0);
 
     
@@ -114,3 +112,71 @@
     color: white;
     text-decoration: none;
   }
+
+
+
+  /* CardCSS.css */
+
+.slider-container {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.card-slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.card {
+  min-width: 20%; /* 100% divided by 4 cards */
+  box-sizing: border-box;
+  background-size: cover;
+  background-position: center;
+  padding: 10px;
+  color: white;
+  height: 400px; /* adjust the height based on your card content */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.card-content {
+  text-align: center;
+}
+
+.hover-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.prev-button {
+  left: 10px;
+}
+
+.next-button {
+  right: 10px;
+}

@@ -77,7 +77,7 @@ const SignUp = () => {
               color: "white",
               marginTop: "-3rem",
               marginLeft: "3rem",
-              marginRight:'30rem'
+              marginRight: "30rem",
             }}
           >
             Create new account and get 1 credits free for any course.
@@ -143,7 +143,10 @@ const SignUp = () => {
                 </Link>
               </div>
               <div className="submit-btn">
-                <button type="submit">Sign-Up</button>
+                <button type="submit">Get Started</button>
+              </div>
+              <div className="submit-btn-google">
+                <button >Sign up with Google</button>
               </div>
               <span>
                 {" "}
